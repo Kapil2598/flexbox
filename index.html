@@ -1,0 +1,240 @@
+<!-- 
+### Create a page according to the layout shown below
+
+![Positioning Content Exercise 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/positioning-content/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF=8" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="sty.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6177ab27d6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="hero" id="top">
+        <!-- HEADER -->
+      <header class="header">
+        <div class="header-link">
+          <span class="circle fb">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </span>
+          <span class="circle">
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+          </span>
+          <span class="circle">
+            <a href="#"> <i class="fa-brands fa-dribbble"></i></a>
+          </span>
+          <span class="circle fb">
+            <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+          </span>
+        </div>
+        <div class="box">
+          <div class="brand">
+            <img src="logo.png" alt="brand logo" />
+          </div>
+          <span>
+            <h1>FLEX</h1>
+          </span>
+          <span class="box-link">
+            <a href="#"> HOME</a>
+            <a href="#service"> SERVICES</a>
+            <a href="#port"> PORTFOLIO</a>
+            <a href="#team"> TEAM</a>
+            <a href="gallery.html"> GALLERY</a>
+            <a href="#cont"> CONTACT</a>
+          </span>
+        </div>
+      </header>
+      <!-- BANNE    R -->
+      <section class="banner">
+        <div class="banner-heading">
+          <h2>DIGITAL MARKETING</h2>
+        </div>
+        <hr />
+        <p>MORE VISITORS TO YOUR WEBSITE</p>
+        <div class="button-1">
+          <a href="#"> LET US DESIGN!</a>
+        </div>
+      </section>
+    </section>
+    <section class="dot">
+      <div class="dot-1"></div>
+      <div class="dot-2"></div>
+      <div class="dot-2"></div>
+    </section>
+
+    <!-- OUR SERVICES -->
+    <section class="special" id="service">
+      <h3>OUR SERVICES</h3>
+      <p class="special-para">WE DESIGN MOBILE-FIRST WEBSITES FOR YOU</p>
+      <div class="special-box">
+        <div class="special-child box-1">
+            <div class="alig">
+                <a href="#"> <i class="fa-solid fa-laptop-code"></i> </a>
+            </div>
+         </div>
+        <div class="special-child box-2">
+            <div class="alig">
+                <a href="#"> <i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+        <div class="special-child box-3">
+            <div class="alig">
+                <a href="#"> <i class="fa-solid fa-building-columns"></i></a>
+            </div>
+        </div>
+        <div class="special-child box-4">
+            <div class="alig">
+                  <a href="#"> <i class="fa-solid fa-flask"></i></a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR PORTFOLIO -->
+    <section class="special" id="port">
+      <h3>OUR PORTFOLIO</h3>
+      <p class="special-para">AMAZING WORK FOR OUR CLIENTS</p>
+      <div class="portfolio">
+        <div class="member">
+          <img src="portfolio/p1.jpg" alt="pic 1" />
+        </div>
+        <div class="member">
+          <img src="portfolio/p2.jpg" alt="pic 2" />
+        </div>
+        <div class="member">
+          <img src="portfolio/p3.jpg" alt="pic 3" />
+        </div>
+        <div class="member">
+          <img src="portfolio/p4.jpg" alt="pic 4" />
+        </div>
+        <div class="member">
+          <img src="portfolio/p5.jpg" alt="pic 5" />
+        </div>
+        <div class="member">
+          <img src="portfolio/p6.jpg" alt="pic 6" />
+        </div>
+        <div class="member">
+          <img src="portfolio/p7.jpg" alt="pic 7" />
+        </div>
+        <div class="member">
+          <img src="portfolio/p8.jpg" alt="pic 8" />
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR TEAM -->
+    <section class="special" id="team">
+      <h3>OUR TEAM</h3>
+      <p class="special-para">OUR PEOPLE ARE VERY UNITED FOR OUR SUCCESS</p>
+      <div class="portfolio">
+        <div class="member team">
+          <img src="team/member1.jpg" alt="person 1" />
+        </div>
+        <div class="member team">
+          <img src="team/member2.jpg" alt="person 2" />
+        </div>
+        <div class="member team">
+          <img src="team/member3.jpg" alt="person 3" />
+        </div>
+        <div class="member team">
+          <img src="team/member4.jpg" alt="person 4" />
+        </div>
+      </div>
+    </section>
+
+    <section class="design">
+      <div class="design-heading">DESIGN SKILLS</div>
+      <p class="design-para">OUR PEOPLE ARE VERY UNITED FOR OUR SUCCESS</p>
+      <article class="article">
+        <div class="article-para">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          quaerat sunt a, labore libero voluptatum tenetur nemo totam earum
+          atque autem ad quod consequatur repellat aliquid veniam accusantium
+          dicta? Quidem. Lorem, ipsum dolor sit amet consectetur adipnetur nemo
+          totam earum atque autem ad quod consequatur repellat aliquid veniam
+          accusantium dicta? Quidem.<br />
+          Please keep in mind that this library can create charts much more
+          complex than what we created in Method #1. The library allows
+          configuration of each and every aspect of the much more complex than
+          what we created in every aspect of the much more complex than what we
+          created in Method #1. Method #1. every aspect of the much more complex
+          than what we created in Method #1. The library allows configuration
+          chart by using tag attributes. For creating the chart above the HTML
+          code looks like this:
+        </div>
+        <div class="bar">
+          <div class="bar-1">PHOTOSHOP 90%</div>
+          <div class="bar-2">HTML CSS 80%</div>
+          <div class="bar-3">DEVELOPMENT 70%</div>
+          <div class="bar-2">MARKETING 80%</div>
+        </div>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="special" id="cont">
+      <h3>CONTACT</h3>
+      <p class="special-para">SEND A MESSAGE TO US</p>
+      <div class="contact">
+        <div class="contact-pic">
+          <img src="google-location-history.png" alt="google map" />
+        </div>
+      </div>
+    </section>
+
+    <article class="article">
+      <div class="article-para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+        quaerat sunt a, labore libero voluptatum tenetur nemo totam earum atque
+        autem ad quod consequatur repellat aliquid veniam accusantium dicta?
+        Quidem. Lorem, ipsum dolor sit amet consectetur adipnetur nemo totam
+        earum atque autem ad quod consequatur repellat aliquid veniam
+        accusantium dicta? Quidem.<br />
+        Lorem, ipsum dolor sit amet consectetur adipnetur nemo totam earum atque
+        autem ad quod consequatur repellat aliquid veniam accusantium dicta?
+        Quidem.<br />
+        Lorem, ipsum dolor sit amet consectetur adipnetur nemo totam earum atque
+        autem ad quod consequatur repellat aliquid veniam accusantium dicta?
+        Quidem.<br />
+        Please keep in mind that this library can create charts much more
+        complex than what we created in Method #1. The library allows
+        configuration of each and every aspect of the much more complex than
+        what we created in Method #1. The library allows configuration chart by
+        using tag attributes. For creating the chart above the HTML code looks
+        like this:
+        <p>Phone: 98762343233</p>
+        <p>Email : vddnvkdmsml@gmail.com</p>
+        <p>Adress: julih, wdnwakm, Afganisthan</p>
+      </div>
+      <div class="rect">
+        <div class="rect-1">Your name</div>
+        <div class="rect-1">Your Email</div>
+        <div class="rect-1">Subject</div>
+        <div class="rect-2">Message</div>
+        <div class="rect-3">Send Message</div>
+      </div>
+    </article>
+    <footer>
+        <div class="footer">
+            &copy Untitled Inc. All rights reserved
+        </div>
+        <div class="top">
+            <a href="#top">Back to Top</a>
+        </div>
+    </footer>
+  </body>
+</html>
